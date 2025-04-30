@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>JavaScript Documentation</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>JavaScript Documentation</header>
+      <a class="nav-link" href="#Introduction">Introduction</a>
+      <a class="nav-link" href="#Variables">Variables</a>
+      <a class="nav-link" href="#Functions">Functions</a>
+      <a class="nav-link" href="#Loops">Loops</a>
+      <a class="nav-link" href="#Objects">Objects</a>
+    </nav>
+
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <p>JavaScript is a versatile programming language used in web development.</p>
+        <p>It can be used for both front-end and back-end development.</p>
+        <code>console.log("Hello, World!");</code>
+        <ul>
+          <li>Used in browsers</li>
+          <li>Dynamic content</li>
+          <li>Interactivity</li>
+        </ul>
+      </section>
+
+      <section class="main-section" id="Variables">
+        <header>Variables</header>
+        <p>Variables are containers for storing data values.</p>
+        <p>Use var, let, or const to declare variables.</p>
+        <code>let x = 10;</code>
+        <code>const name = "Alice";</code>
+        <ul>
+          <li>var: function-scoped</li>
+          <li>let: block-scoped</li>
+          <li>const: block-scoped & constant</li>
+        </ul>
+      </section>
+
+      <section class="main-section" id="Functions">
+        <header>Functions</header>
+        <p>Functions are blocks of code that perform a task.</p>
+        <p>You can define functions using function keyword or arrow syntax.</p>
+        <code>function greet() { return "Hello"; }</code>
+        <code>const greet = () => "Hello";</code>
+        <ul>
+          <li>Reusable code</li>
+          <li>Can take parameters</li>
+          <li>Can return values</li>
+        </ul>
+      </section>
+
+      <section class="main-section" id="Loops">
+        <header>Loops</header>
+        <p>Loops let you repeat a block of code.</p>
+        <p>Common types include for, while, and do...while.</p>
+        <code>for (let i = 0; i < 5; i++) { console.log(i); }</code>
+        <code>while (i < 5) { i++; }</code>
+        <ul>
+          <li>for</li>
+          <li>while</li>
+          <li>do...while</li>
+        </ul>
+      </section>
+
+      <section class="main-section" id="Objects">
+        <header>Objects</header>
+        <p>Objects are collections of key-value pairs.</p>
+        <p>They are used to store structured data.</p>
+        <code>let person = { name: "Alice", age: 25 };</code>
+        <code>console.log(person.name);</code>
+        <ul>
+          <li>Key-value pairs</li>
+          <li>Access with dot or bracket notation</li>
+          <li>Methods and properties</li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
